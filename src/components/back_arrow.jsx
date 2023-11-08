@@ -27,6 +27,7 @@ const styles = StyleSheet.create({
   itemContainer: {
     flexDirection: 'row',
     alignItems: 'center',
-    padding:wp(2)
+    padding:wp(1.5),
+   
   },
 });
