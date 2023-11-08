@@ -7,11 +7,13 @@ import {
 } from '../../common/responsive_functions';
 import {COLORS, CONSTANTS, STYLES} from '../../constants/theme';
 import MovieHandler from './movie_handler';
+import BackArrow from '../../components/back_arrow';
 
 export default function MovieDetailScreen(props) {
   const {movieData} = MovieHandler(props);
   return (
     <View style={styles.container}>
+        <BackArrow />
       <Image
         style={styles.image}
         source={{
